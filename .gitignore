@@ -1,0 +1,17 @@
+# Configuração local do banco de dados
+/config/conexao.php
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+*.bak
+
+# Configurações locais do editor
+.vscode/
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Script local de criação do administrador
+/criar_admin.php

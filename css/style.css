@@ -1,0 +1,302 @@
+body {
+    background-color: #FFF8F5;
+    color: #4A3B3B;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F2D8D5;
+    padding: 20px;
+    text-align: center;
+}
+
+header h2 {
+    color: #7D4F50;
+    font-size: 32px;
+    margin: 0;
+}
+
+header p {
+    color: #7D4F50;
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+
+nav {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #7D4F50;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #B8797C;
+}
+
+.boas-vindas {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.boas-vindas h2 {
+    color: #7D4F50;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.boas-vindas p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.botao-agendar {
+    display: inline-block;
+    background-color: #B8797C;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao-agendar:hover {
+    background-color: #945D60;
+}
+
+.procedimentos {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.procedimentos h2 {
+    color: #7D4F50;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.lista-procedimentos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.procedimento {
+    background-color: #FFF8F5;
+    padding: 30px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.procedimento h3 {
+    color: #7D4F50;
+    margin-bottom: 15px;
+}
+
+.procedimento p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.sobre {
+    background-color: #FFF8F5;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.sobre h2 {
+    color: #7D4F50;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.sobre p {
+    color: #4A3B3B;
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #F2D8D5;
+    color: #7D4F50;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.pagina-cadastro {
+    max-width: 450px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.pagina-cadastro form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.pagina-cadastro input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #D9B8B5;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.pagina-cadastro input:focus {
+    outline: none;
+    border-color: #B8797C;
+    box-shadow: 0 0 0 3px rgba(184, 121, 124, 0.2);
+}
+
+.pagina-cadastro button {
+    background-color: #B8797C;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.pagina-cadastro button:hover {
+    background-color: #945D60;
+}
+
+.mensagem {
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.mensagem.sucesso {
+    background-color: #E5F5E8;
+    color: #246B35;
+    border: 1px solid #A8D5B0;
+}
+
+.mensagem.erro {
+    background-color: #FCE8E8;
+    color: #9B3030;
+    border: 1px solid #E8B0B0;
+}
+
+.pagina-cadastro select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #D9B8B5;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.pagina-cadastro select:focus {
+    outline: none;
+    border-color: #B8797C;
+    box-shadow: 0 0 0 3px rgba(184, 121, 124, 0.2);
+}
+
+.grade-horarios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 25px 0;
+}
+
+.horario-disponivel {
+    background-color: #F8E9E8;
+    color: #945D60;
+    border: 1px solid #D9B8B5;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+button.horario-disponivel {
+    width: 100%;
+    margin: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 15px;
+    transition: background-color 0.2s;
+}
+
+button.horario-disponivel:hover {
+    background-color: #B8797C;
+    color: white;
+}
+
+.cartao-agendamento {
+    background-color: #FFF8F7;
+    border: 1px solid #E8D2D0;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.cartao-agendamento h3 {
+    color: #945D60;
+    margin-bottom: 15px;
+}
+
+.cartao-agendamento p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.botao-cancelar {
+    background-color: #A94442 !important;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.botao-cancelar:hover {
+    background-color: #873532 !important;
+}
+
+.aviso-cancelamento {
+    color: #9B3030;
+    font-size: 14px;
+    margin-top: 15px;
+}
